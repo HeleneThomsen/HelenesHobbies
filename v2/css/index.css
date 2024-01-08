@@ -1,0 +1,42 @@
+.sec-intro{
+    width: 100%;
+    height: calc(90vh);
+    margin-top: 60px;
+    background-image: url(../images/mandala_half.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-content: flex-start; */
+}
+.sec-intro h1{
+    padding: 15px;
+}
+
+.sec-intro-text{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-intro-h1-2{
+    color: var(--site-color-01);
+    font-size: 106px;
+    line-height: 116px;
+}
+
+.sec-intro img{
+    height: 20vh;
+    align-self: flex-start ;
+    
+}
+
+.sec-intro-text p{
+    font-size: 18px;
+    background-color: pink;
+    padding: 30px;
+}
+
