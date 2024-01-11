@@ -120,9 +120,16 @@ p{
 
 }
 
-.main-header-nav ul a{
+/* .main-header-nav ul a{
     padding: 0 1em 0 1rem;
     line-height: 6.0rem;
+} */
+.main-header-nav ul a {
+    padding: 0 1em; /* Adjust horizontal padding as needed */
+    display: flex;
+    align-items: center; /* This will vertically center the text inside the anchor */
+    height: 6rem; /* If you want a specific height for your items */
+    text-align: center;
 }
 
 .main-header-nav ul li a:hover{
