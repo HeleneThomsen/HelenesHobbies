@@ -1,0 +1,3 @@
+[submodule "images_private"]
+	path = images_private
+	url = https://github.com/HeleneThomsen/private_images.git
