@@ -1,31 +1,37 @@
-.main-body{
-    background-color: brown;
+.blog{
     height: calc(50vh - 6rem);
     display: flex;
+    flex-direction: column;
 }
 
-
-
-.post{
-    background-color: aqua;
-    
+.post-intro{
+    display: flex;
+    height: calc(50vh - 6rem);
 }
-
-
-.nav_column{
-    background-color: green;
-    height: 20rem;
-    width: 20rem;
-}
-
 
 .introduction{
     background-color:orange;
+    width: 100rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*center vertically*/
+    justify-content: center; /*center horizontally*/
+    column-gap: 20%;
 }
 
+.introduction img{
+    height: 80%;
+}
+
+
+.nav-column{
+    background-color: green;
+    flex-grow: 1;
+}
 
 
 
 .tags_column{
     background-color: blue;
+    flex-grow: 1;
 }

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <li><a href="https://helenethomsen.github.io/HelenesHobbies/index.html">HOME</a></li>
                 <li><a href="#">ONGOING</a></li>
                 <li><a href="#">KNITTING</a></li>
-                <li><a href="https://helenethomsen.github.io/HelenesHobbies/crochet/lego_keychains/lego_keychain.html">CROCHET</a></li>
+                <li><a href="https://helenethomsen.github.io/HelenesHobbies/crochet/crochet_overview.html">CROCHET</a></li>
                 <li><a href="#">SHUTTLE<br> TATTING</a></li>
                 <li><a href="#">TEABAG<br>FOLDING</a></li>
             </ul>
