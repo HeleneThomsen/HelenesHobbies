@@ -1,0 +1,31 @@
+.main-body{
+    background-color: brown;
+    height: calc(50vh - 6rem);
+    display: flex;
+}
+
+
+
+.post{
+    background-color: aqua;
+    
+}
+
+
+.nav_column{
+    background-color: green;
+    height: 20rem;
+    width: 20rem;
+}
+
+
+.introduction{
+    background-color:orange;
+}
+
+
+
+
+.tags_column{
+    background-color: blue;
+}
