@@ -181,7 +181,6 @@ main img{
     
     .intro-me p{
         border-left: var(--border-main);
-        padding-left: 0rem;
         margin-left: 1rem;
         margin-right: 0rem;
         padding-left: 1rem;
