@@ -60,9 +60,40 @@
 
 
 
-.tags_column{
+.tags-column{
     background-color: blue;
     width: calc((100% - 69.45%)/2);
+}
+
+.process-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6%;
+    /* padding: 0 3% 0 3%; */
+
+}
+
+.process-img div{
+    text-align: center;
+}
+
+.process-img h1{
+    background-color: var(--site-color-01);
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.process-img img{
+    border-radius: 3rem 3rem 3rem 3rem;
+    height: 25vh;
+
 }
 
 .tutorial{
