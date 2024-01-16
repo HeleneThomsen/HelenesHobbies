@@ -90,11 +90,35 @@
     margin-bottom: 2%;
 }
 
+.process-img p{
+    border: var(--border-main);
+    border-radius: 3rem 3rem 3rem 3rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+}
+
+.process-img p a{
+    color: var(--site-color-01-hover);
+    
+
+}
+
+
+.process-img p a:hover{
+    color: var(--site-color-01);
+
+}
+
+
 .process-img img{
     border-radius: 3rem 3rem 3rem 3rem;
     height: 25vh;
+    margin-top: 10%;
 
 }
+
+
 
 .tutorial{
         width: 69.45%;
