@@ -6,5 +6,8 @@
   # HeleneThomsen's Website
 
   Visit **[helenethomsen.github.io/HelenesHobbies](https://helenethomsen.github.io/HelenesHobbies)** 🚀
+  This website is still under development.
+  Design will be changed before content is added.
+  
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_

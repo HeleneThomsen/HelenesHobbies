@@ -1,19 +1,20 @@
 # site properties and page defaults
-title: HeleneThomsen
+title: #Helene's Hobbies
 subtitle: 
 description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+header: # images/header.png
+footer: images/mandala.png
 proofer: false
+#  background-color: hsl(44, 100%, 70%);
 
 # site social media and other links
 links:
-  email: contact@HeleneThomsen.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: helenet@live.dk
+  orcid: 0009-0000-9059-3038
+  # google-scholar: ETJoidYAAAAJ
   github: HeleneThomsen
-  twitter: HeleneThomsen
-  youtube: HeleneThomsen
+  #twitter: HeleneThomsen
+  #youtube: HeleneThomsen
 
 ### jekyll settings
 

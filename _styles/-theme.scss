@@ -1,7 +1,7 @@
 ---
 ---
 
-// colors
+// colors (when hovering)
 [data-dark="false"] {
   --primary: #0795d9;
   --secondary: #7dd3fc;
@@ -14,28 +14,39 @@
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
+  --primary: rgb(112, 112, 112);
   --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
+  --text:  #000000; 
+  --background:   #ffffff;
   --background-alt: #1c1c1c;
   --light-gray: #404040;
   --gray: #808080;
   --dark-gray: #b0b0b0;
   --overlay: #ffffff10;
 }
-
+// yellow: hsl(44, 100%, 70%)
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Rochester","Papyrus","serif","Arial", "Helvetica","sans-serif";
+  --heading: "Rochester", "serif","Arial","Helvetica","sans-serif","Barlow";
+  --heading_nav: "serif","Arial","Helvetica","sans-serif","Barlow";
+  --body: "serif", "Arial", "Helvetica", "sans-serif", "Barlow";
   --code: "Roboto Mono", monospace;
+  --site-color-01: hsl(44, 100%, 70%);
+  --site-color-01-hover: rgb(112, 112, 112);
+
+  /*
+    --font-01-header: Rochester,Papyrus, serif, Arial, Helvetica, sans-serif;
+    --font-02-nav: serif, Arial, Helvetica, sans-serif;
+    --font-03-body: serif, Arial, Helvetica, sans-serif;
+    --border-main:  0.4rem solid var(--site-color-01);
+  */
 
   // font sizes
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
+  --xxxl: 6rem;
 
   // font weights
   --thin: 200;

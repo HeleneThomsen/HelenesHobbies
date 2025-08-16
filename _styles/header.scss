@@ -1,20 +1,21 @@
 ---
 ---
 
-$logo-big: 80px;
-$logo: 40px;
-$big-padding: 100px;
+$logo-big: 180px;
+$logo: 70px;
+$big-padding: 10px;
 $collapse: 700px;
 $sticky: true;
+
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
   padding: 20px;
-  box-shadow: var(--shadow);
+
 
   @if $sticky {
     position: sticky !important;
@@ -26,16 +27,19 @@ header {
 header a {
   color: var(--text);
   text-decoration: none;
+
 }
 
-.home {
+.home { // Cover the logo and blog text
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  flex-basis: 0;
+  flex: 0 1 auto;   /* shrink if needed, but don’t hog full width */
+  /*flex-basis: 0;
   flex-grow: 1;
-  max-width: 100%;
+  max-width: 100%; */
+
 }
 
 .logo {
@@ -100,16 +104,18 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  font-family: var(--heading);
+  font-family: var(--heading_nav);
   text-transform: uppercase;
+
 }
 
 nav > a {
-  padding: 5px;
+  padding: 10px;
 }
 
 nav > a:hover {
   color: var(--primary);
+  background: hsl(44, 100%, 70%);
 }
 
 header:not([data-big]) {
@@ -126,43 +132,47 @@ header:not([data-big]) {
 
     nav {
       align-items: flex-end;
-      flex-direction: column;
-      width: 100%;
+      flex-direction:column;
     }
   }
 }
 
 header[data-big] {
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   padding: $big-padding 20px;
+  background-color: green;
 
   @if $sticky {
     top: unset;
   }
 
   .home {
-    flex-direction: column;
+    flex-direction: row; // makes the logo and the name of the blog sit above each other if "column". Logo and underneath the name. I want side-by-side
     flex-grow: 0;
   }
 
   .logo {
-    height: $logo-big;
+    height: $logo;
     flex-shrink: 0;
   }
 
   .title-text {
+    display: flex;
     flex-direction: column;
+    gap: 4px;
     align-items: center;
     text-align: center;
   }
 
   .title {
-    font-size: var(--xxl);
+    font-size: var(--xxxl);
   }
 
   .subtitle {
     font-size: var(--large);
   }
 }
+
+

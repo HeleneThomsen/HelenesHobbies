@@ -1,7 +1,7 @@
 ---
 ---
 
-# HeleneThomsen's Website
+# Helene's Overview
 
 An engaging 1-3 sentence description of your lab.
 
