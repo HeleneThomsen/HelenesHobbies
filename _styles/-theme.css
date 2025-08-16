@@ -11,10 +11,10 @@
 }
 
 [data-dark=true] {
-  --primary: #0795d9;
+  --primary: rgb(112, 112, 112);
   --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
+  --text: #000000;
+  --background: #ffffff;
   --background-alt: #1c1c1c;
   --light-gray: #404040;
   --gray: #808080;
@@ -23,13 +23,23 @@
 }
 
 :root {
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Rochester","Papyrus","serif","Arial", "Helvetica","sans-serif";
+  --heading: "Rochester", "serif","Arial","Helvetica","sans-serif","Barlow";
+  --heading_nav: "serif","Arial","Helvetica","sans-serif","Barlow";
+  --body: "serif", "Arial", "Helvetica", "sans-serif", "Barlow";
   --code: "Roboto Mono", monospace;
+  --site-color-01: hsl(44, 100%, 70%);
+  --site-color-01-hover: rgb(112, 112, 112);
+  /*
+    --font-01-header: Rochester,Papyrus, serif, Arial, Helvetica, sans-serif;
+    --font-02-nav: serif, Arial, Helvetica, sans-serif;
+    --font-03-body: serif, Arial, Helvetica, sans-serif;
+    --border-main:  0.4rem solid var(--site-color-01);
+  */
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
+  --xxxl: 6rem;
   --thin: 200;
   --regular: 400;
   --semi-bold: 500;
