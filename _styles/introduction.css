@@ -1,0 +1,112 @@
+.me-and-project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: var(--border-main);
+}
+
+.intro-me{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-me img{
+    height: 60%;
+    border-radius: 0 3rem 0 3rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    border: 0.4rem solid var(--site-color-01)
+    /* margin-right: 3rem; */
+}
+
+.intro-me p{
+    /* border-left: var(--border-main); */
+    padding-left: 1.5rem;
+    margin-right: 2rem;
+    /* padding-top: 1.5rem; */
+}
+
+.index-recent-projects{
+    width: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.index-recent-projects h1{
+
+    flex-basis: 100%;
+    text-align: center;
+    align-self: flex-start;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-radius: 0 3rem 0 3rem;
+    background-color: var(--site-color-01);
+    flex-wrap: wrap;
+}
+
+.index-recent-projects h3{
+    color: var(--site-color-01);
+    z-index: 200;
+}
+
+.index-recent-projects a{
+    background-color: var(--site-color-01-hover);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+}
+
+.index-recent-projects a:hover .dark_overlay {
+    opacity: 0;
+    
+}
+.index-recent-projects a:hover h3{
+    color: transparent;
+}
+
+.index-recent-projects a:hover .index-recent-projects{
+    color: transparent;
+}
+
+
+.index_project1{
+    background-image: url(../images/stork.jpg);
+} 
+
+.index_project2{
+    background-image: url(../images/dog_and_yarn.png);
+} 
+
+.index_project3{
+    background-image: url(../images/dog_and_yarn.png);
+} 
+
+.index_project4{
+    background-image: url(../images/dog_and_yarn.png);
+} 
+
+
+.dark_overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--site-color-01-hover);
+    opacity: 0.8;
+    transition: all ease-in-out 200ms;
+}

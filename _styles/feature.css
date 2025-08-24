@@ -26,7 +26,7 @@
 }
 
 .feature-title {
-  font-size: var(--large);
+  font-size: var(--xxl);
   text-align: center;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
@@ -43,7 +43,21 @@
   .feature-image {
     width: 100%;
     max-width: 400px;
+    object-position: center;
   }
+}
+.tall-feature-image {
+  aspect-ratio: unset;
+  height: auto;
+  width: auto;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.tall-feature-image img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=feature.css.map */

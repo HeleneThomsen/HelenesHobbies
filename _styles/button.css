@@ -17,10 +17,10 @@ button {
   border: none;
   border-radius: var(--rounded);
   background: var(--primary);
-  color: var(--background);
+  color: var(--site-color-01);
   text-align: center;
   font: inherit;
-  font-family: var(--heading);
+  font-family: var(--heading_nav);
   font-weight: var(--semi-bold);
   text-decoration: none;
   vertical-align: middle;
@@ -30,13 +30,14 @@ button {
 
 .button:hover {
   background: var(--text);
-  color: var(--background);
+  color: var(-- --site-color-02);
 }
 
 .button[data-style=bare] {
   padding: 5px;
   background: none;
   color: var(--primary);
+  font-size: small;
 }
 .button[data-style=bare]:hover {
   color: var(--text);
