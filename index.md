@@ -28,7 +28,6 @@
   link="overview"
   title="About me"
   text=text
-  image_class="tall-feature-image"
 %}
 
 ## Recently Finished Projects
