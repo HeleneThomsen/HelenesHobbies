@@ -3,7 +3,7 @@
 
 // colors (when hovering)
 [data-dark="false"] {
-  --primary: #0795d9;
+  --primary:  rgb(112, 112, 112);
   --secondary: #7dd3fc;
   --text: #000000;
   --background: #ffffff;
@@ -14,7 +14,7 @@
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: rgb(112, 112, 112);
+  --primary:hsl(44, 100%, 70%);
   --secondary: #075985;
   --text:  #000000; 
   --background:   #ffffff;
@@ -43,6 +43,7 @@
   */
 
   // font sizes
+  --small: 0.1rem;
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;

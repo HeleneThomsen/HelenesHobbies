@@ -13,8 +13,9 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  gap: 20px;
-  padding: 20px;
+  //gap: 20px;
+  padding: 10px;
+  background-color: green;
 
 
   @if $sticky {
@@ -35,7 +36,7 @@ header a {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  flex: 0 1 auto;   /* shrink if needed, but don’t hog full width */
+  //flex: 0 1 auto;   /* shrink if needed, but don’t hog full width */
   /*flex-basis: 0;
   flex-grow: 1;
   max-width: 100%; */
@@ -69,6 +70,7 @@ header a {
 .subtitle {
   opacity: 0.65;
   font-weight: var(--thin);
+  padding-top: 1rem;
 }
 
 .nav-toggle {
@@ -114,8 +116,8 @@ nav > a {
 }
 
 nav > a:hover {
-  color: var(--primary);
-  background: hsl(44, 100%, 70%);
+  color: var(--site-color-01-hover);
+
 }
 
 header:not([data-big]) {
@@ -140,9 +142,10 @@ header:not([data-big]) {
 header[data-big] {
   // justify-content: center;
   align-items: center;
-  flex-direction: row;
+ // flex-direction: row;
   padding: $big-padding 20px;
   background-color: green;
+
 
   @if $sticky {
     top: unset;

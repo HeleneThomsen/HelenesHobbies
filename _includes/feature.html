@@ -8,9 +8,9 @@
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
-    class="feature-image"
-    aria-label="{{ include.title | default: "feature link" | regex_strip }}"
-  >
+    class="feature-image {{ include.image_class }}"
+  aria-label="{{ include.title | default: "feature link" | regex_strip }}"
+>
     <img
       src="{{ include.image | relative_url | uri_escape }}"
       loading="lazy"

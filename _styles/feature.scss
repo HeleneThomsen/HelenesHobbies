@@ -31,10 +31,11 @@ $wrap: 800px;
 }
 
 .feature-title {
-  font-size: var(--large);
+  font-size: var(--xxl);
   text-align: center;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+
 }
 
 .feature[data-flip] {
@@ -49,5 +50,22 @@ $wrap: 800px;
   .feature-image {
     width: 100%;
     max-width: calc($wrap / 2);
+    object-position: center; // or top , bottom
   }
+}
+
+
+.tall-feature-image {
+  aspect-ratio: unset;
+  height: auto;
+  width: auto;
+  max-height: 400px; // optional control
+  max-width: calc($wrap / 2);
+
+}
+
+.tall-feature-image img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
 }
