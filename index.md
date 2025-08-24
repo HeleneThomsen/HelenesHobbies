@@ -1,6 +1,7 @@
 ---
 ---
 # Welcome to My Blog
+This is still very much a work in progress website with placeholder pictures etc. but I will work on this when time allows me to do so.git
 {% capture text %}
 
   Hi!
